@@ -12,7 +12,7 @@ extension UILabel {
     /// Call this method to underline all text inside label
     public func underlineText() {
         let attributes: [NSAttributedString.Key: Any] = [
-            .underlineStyle:NSUnderlineStyle.single.rawValue
+            .underlineStyle:NSUnderlineStyle.styleSingle.rawValue
         ]
         
         self.attributedText = NSAttributedString(string: self.text!, attributes: attributes)
