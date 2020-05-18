@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MyExtension_Tests' do
+  pod 'MyExtension', :path => '../'
+  
+  
+end
