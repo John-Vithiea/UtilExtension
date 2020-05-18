@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'MyExtension'
+  s.name             = 'MyJVExtension'
   s.version          = '0.1.0'
   s.summary          = 'A collection of daily utilities with extension.'
 
